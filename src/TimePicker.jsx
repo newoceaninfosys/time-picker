@@ -130,9 +130,6 @@ export default class Picker extends Component {
     if (e.keyCode === 40) {
       this.setOpen(true);
     }
-    else if (e.keyCode === 13) {
-      this.setOpen(false);
-    }
   }
 
   setValue(value) {

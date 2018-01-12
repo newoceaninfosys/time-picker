@@ -136,7 +136,7 @@ class Header extends Component {
 
   onKeyDown = (e) => {
     const { onEsc, onKeyDown } = this.props;
-    if (e.keyCode === 27) {
+    if (e.keyCode === 27 || e.keyCode === 13) { // 13: Enter | 27: Esc
       onEsc();
     }
 
